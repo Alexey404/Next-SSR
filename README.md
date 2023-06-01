@@ -18,4 +18,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Deploy on Vercel
 
-Try the website [next-ssr-lemon.vercel.app](next-ssr-lemon.vercel.app)
+```bash
+Try the website
+
+next-ssr-lemon.vercel.app
+```
