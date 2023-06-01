@@ -78,7 +78,11 @@ a {
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
+  @media (max-width: 800px) {
+    margin: 0px 15px;
+    max-width: 100%;
+  }
 }
 
 .content {

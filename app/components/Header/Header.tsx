@@ -1,13 +1,17 @@
-import Link from 'next/link'
 import './Header.scss'
+import { Navigation } from './Navigation'
+
+const navLinks = [
+  { lable: 'Home', href: '/' },
+  { lable: 'Blog', href: '/blog' },
+  { lable: 'About', href: '/about' },
+]
 
 export const Header = () => {
   return (
     <header className='container'>
       <div className='navbar'>
-        <Link className='nav-item' href={'/'}>Home</Link>
-        <Link className='nav-item' href={'/blog'}>Blog</Link>
-        <Link className='nav-item' href={'/about'}>About</Link>
+        <Navigation navLinks={navLinks} />
       </div>
     </header>
   )
